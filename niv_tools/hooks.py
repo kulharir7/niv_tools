@@ -14,4 +14,5 @@ assistant_tools = [
     "niv_tools.tools.rollback_changes.RollbackChanges",
     "niv_tools.tools.introspect_system.IntrospectSystem",
     "niv_tools.tools.map_relationships.MapRelationships",
+    "niv_tools.tools.build_blueprint.BuildBlueprint",
 ]
