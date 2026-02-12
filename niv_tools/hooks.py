@@ -15,4 +15,5 @@ assistant_tools = [
     "niv_tools.tools.introspect_system.IntrospectSystem",
     "niv_tools.tools.map_relationships.MapRelationships",
     "niv_tools.tools.build_blueprint.BuildBlueprint",
+    "niv_tools.tools.verify_build.VerifyBuild",
 ]
