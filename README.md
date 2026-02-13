@@ -34,7 +34,7 @@ bench --site your-site.localhost install-app frappe_assistant_core
 
 ### Step 2: Install Niv Tools
 ```bash
-bench get-app https://github.com/kulharir7/niv_tools
+bench get-app https://github.com/kulharir7/niv_tools --skip-assets
 bench --site your-site.localhost install-app niv_tools
 ```
 
@@ -50,7 +50,7 @@ bench restart
 # Inside your Docker container
 docker exec -it <backend-container> bash
 cd /home/frappe/frappe-bench
-bench get-app https://github.com/kulharir7/niv_tools
+bench get-app https://github.com/kulharir7/niv_tools --skip-assets
 bench --site <site-name> install-app niv_tools
 bench restart
 ```

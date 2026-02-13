@@ -2,7 +2,9 @@ app_name = "niv_tools"
 app_title = "Niv Tools"
 app_publisher = "Ravindra Kulhari"
 app_description = "Custom AI tools for Niv AI chatbot via FAC MCP"
-app_version = "0.1.0"
+app_version = "0.2.1"
+
+after_install = "niv_tools.install.after_install"
 
 # FAC Custom Tools Registration
 # These tools are auto-discovered by FAC via hooks and served via MCP
